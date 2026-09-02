@@ -1,4 +1,3 @@
-CREATE DATABASE ShopDB;
 
 USE ShopDB;
 
@@ -41,4 +40,4 @@ CREATE TABLE OrderItems (
 
 CREATE INDEX Email ON Customers (Email);
 
-CREATE INDEX NAme ON Products (Name);
+CREATE INDEX Name ON Products (Name);
